@@ -1,0 +1,4 @@
+@echo off
+adb shell am start -a android.intent.action.VIEW -d "sms:+919790559885?body=[ALERT]%20Name:%20iiii,%20Lat:%2012.923496856742005,%20Long:%2080.09365146920366,%20Time:%2003/04/2025,%2001:36:50%20PM,%20Flood%20Height:%2066.%0A[ALERT]%20Name:%20iiii,%20Lat:%2012.923496856742005,%20Long:%2080.09365146920366,%20Time:%2003/04/2025,%2001:37:01%20PM,%20Flood%20Height:%2066.%0A[ALERT]%20Name:%20iiii,%20Lat:%2012.923496856742005,%20Long:%2080.09365146920366,%20Time:%2003/04/2025,%2001:37:20%20PM,%20Flood%20Height:%2066."
+timeout /t 2 >nul
+adb shell input tap 633 1421
